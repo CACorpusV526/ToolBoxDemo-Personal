@@ -8,6 +8,8 @@ namespace ToolBoxDemo
 {
     class Program
     {
+        /*The "Main" method acts as program's .exe file aka 'executable" or "entry point".
+          This is the file we double click on to start any program.*/
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to your Tool Box!");
@@ -38,6 +40,8 @@ namespace ToolBoxDemo
 
 
 
+            /*Functions are Methods written outside a custom class
+              Methods are functions written inside a custom class*/
             //Functions below this line
             void KeyToContinue()
             {
@@ -54,13 +58,9 @@ namespace ToolBoxDemo
             {
                 KeyToContinue();
                 ClearConsole();
+            Console.WriteLine("Congratulations! You've cleared the console!...hit ENTER to close the program");
+                Console.ReadLine();
             }
         }
     }
 }
-
-        /*The "Main" method acts as program's .exe file aka 'executable" or "entry point".
-          This is the file we double click on to start any program.*/
-            /*Functions are Methods written outside a custom class
-              Methods are functions written inside a custom class*/
-            //Console.WriteLine("Congratulations! You've cleared the console!...hit ENTER to close the program");
